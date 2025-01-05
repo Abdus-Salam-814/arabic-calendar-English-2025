@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1rem;
+}
+
+h3 {
+    text-align: center;
+    margin: 1.3rem 0;
+    color: #333;
+}
+
+.calendar-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.calendar {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1.3rem;
+    /* width: 280px; */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    padding: 0.7rem;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+td:hover {
+    background-color: #f1f1f1;
+}
